@@ -2,7 +2,7 @@
 
 C++ Project containing various game modules, allowing for modders to easily create Blueprint mods or otherwise replace assets.
 
-[![HaloSplash](https://raw.githubusercontent.com/Halo-Campaign-Evolved-MODKIT/_gitasset/readme/READMESPLASH.jpg)](https://github.com/Mal0-1471/Halo-Campaign-Evolved-MODKIT)
+![Project SPLASH](_gitasset/readme/READMESPLASH.jpg)
 
 ## Major features
 
