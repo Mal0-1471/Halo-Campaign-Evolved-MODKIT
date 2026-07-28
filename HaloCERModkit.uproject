@@ -31,6 +31,10 @@
 			"Enabled": true
 		},
 		{
+			"Name": "CookedVTImporter",
+			"Enabled": true
+		},
+		{
 			"Name": "BlamEngine",
 			"Enabled": true
 		},

@@ -32,6 +32,8 @@ C++ Project containing various game modules, allowing for modders to easily crea
 
 Modkit development members
 - [Mal0-1471](https://github.com/Mal0-1471): Modkit Project Maintainer
+Additional Support
+- [GameBreaker](https://github.com/GameOverloads): Virtual Texture import plugin
 
 Tool used for dumping game header files.
 - [UE4SS Fork by RSDTools](https://www.nexusmods.com/halocampaignevolved/mods/9)
