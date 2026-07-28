@@ -72,3 +72,21 @@ Plugins/**/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# Extra ignores
+Windows/*
+
+# Plugins to manually add
+Plugins/Wwise/*
+Plugins/WwiseNiagara/*
+Plugins/PlayFab/*
+
+#Wwise
+HaloCERModkit_WwiseProject/.backup*
+HaloCERModkit_WwiseProject/.cache*
+*.akd
+*.prof
+*.validationcache
+*.wsettings
+AkWwiseProjectData.asset
+IncrementalSoundBankData.xml
