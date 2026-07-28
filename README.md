@@ -10,11 +10,11 @@ C++ Project containing various game modules, allowing for modders to easily crea
 
 ## Basic Installation
 
-Download Unreal Engine 5.5 either from the Epic Games Launcher
-Download Visual Studio 2022 for Unreal Engine: https://dev.epicgames.com/documentation/unreal-engine/setting-up-visual-studio-development-environment-for-cplusplus-projects-in-unreal-engine?lang=en-US
-Clone this repository
-Download the Wwise Launcher and integrate the Wwise Version 2023.1.17.8841 to the project, as well as directing it to the project's Wwise project.
-Download the PlayFab plugin from Fab and integrate it into your engine installation
+- Download Unreal Engine 5.5 either from the Epic Games Launcher
+- Download Visual Studio 2022 for Unreal Engine: https://dev.epicgames.com/documentation/unreal-engine/setting-up-visual-studio-development-environment-for-cplusplus-projects-in-unreal-engine?lang=en-US
+- Clone this repository
+- Download the Wwise Launcher and integrate the Wwise Version 2023.1.17.8841 to the project, as well as directing it to the project's Wwise project.
+- Download the PlayFab plugin from Fab and integrate it into your engine installation
 
 ## Credits
 
