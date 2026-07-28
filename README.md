@@ -34,4 +34,4 @@ Modkit development members
 - [Mal0-1471](https://github.com/Mal0-1471): Modkit Project Maintainer
 
 Tool used for dumping game header files.
-- [UE4SS Fork by RSDTools]([https://github.com/UE4SS-RE/RE-UE4SS](https://www.nexusmods.com/halocampaignevolved/mods/9))
+- [UE4SS Fork by RSDTools](https://www.nexusmods.com/halocampaignevolved/mods/9)
