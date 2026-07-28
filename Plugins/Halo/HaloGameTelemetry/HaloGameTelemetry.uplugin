@@ -1,0 +1,35 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "HaloGameTelemetry",
+	"Description": "Plugin for in-game telemetry system",
+	"Category": "Telemetry",
+	"CreatedBy": "343 Industries (Microsoft)",
+	"CreatedByURL": "",
+	"DocsURL": "https://studio.343i.xboxgamestudios.com/display/okanagan/Halo+Game+Telemetry+Internals+and+Usage",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "HaloGameTelemetry",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name" : "HaloGraphicsTelemetry",
+			"Type" : "Runtime",
+			"LoadingPhase" : "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "JsonBlueprintUtilities",
+			"Enabled": true
+		}
+	]
+}

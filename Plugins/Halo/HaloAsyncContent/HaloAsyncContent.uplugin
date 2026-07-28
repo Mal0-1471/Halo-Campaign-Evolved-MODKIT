@@ -1,0 +1,24 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "HaloAsyncContent",
+	"Description": "Helper to async load assets but with the option to blocking load if they are immediately required.",
+	"Category": "Content",
+	"CreatedBy": "Microsoft Corporation",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "HaloAsyncContent",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}

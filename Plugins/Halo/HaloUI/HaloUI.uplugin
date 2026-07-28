@@ -1,0 +1,43 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "HaloUI",
+	"Description": "UI Elements and Systems for sharing across 343i Unreal Projects",
+	"Category": "UI",
+	"CreatedBy": "Microsoft Corporation",
+	"CreatedByURL": "",
+	"DocsURL": "https://studio.343i.xboxgamestudios.com/display/okanagan/HaloUI+Plugin",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "HaloUI",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "CommonUI",
+			"Enabled": true
+		},
+		{
+			"Name": "HaloAsyncContent",
+			"Enabled": true
+		},
+		{
+			"Name": "HaloOnlineServices",
+			"Enabled": true
+		},
+		{
+			"Name": "Paper2D",
+			"Enabled": true,
+			"Optional": true
+		}
+	]
+}

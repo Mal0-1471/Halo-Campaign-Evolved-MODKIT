@@ -1,0 +1,24 @@
+{
+    "FileVersion" : 3,
+    "Version" : 1,
+	"VersionName" : "1.0",
+    "FriendlyName" : "TCQualitySubsystem",
+    "Description" : "Multi-platform scalability management system.",
+    "Category" : "Rendering",
+	"CreatedBy" : "The Coalition (Microsoft)",
+	"CreatedByURL" : "https://thecoalitionstudio.com",
+	"DocsURL" : "",
+	"MarketplaceURL" : "",
+	"SupportURL" : "",
+    "EnabledByDefault" : false,
+    "CanContainContent" : true,
+    "IsBetaVersion" : false,
+    "Installed" : false,
+    "Modules" : [
+        {
+            "Name" : "TCQualitySubsystem",
+            "Type" : "Runtime",
+            "LoadingPhase" : "Default"
+        }
+    ]
+}

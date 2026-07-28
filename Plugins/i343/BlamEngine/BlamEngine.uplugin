@@ -1,0 +1,172 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "BlamEngine",
+	"Description": "The Halo Engine",
+	"Category": "Gameplay",
+	"CreatedBy": "343 Industries",
+	"CreatedByURL": "",
+	"DocsURL": "https://studio.343i.xboxgamestudios.com/display/Meteorite/Meteorite+Home",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "BlamAudio",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "BlamExperience",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "BlamGlue",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "BlamObjectCustomization",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "BlamEngine",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "BlamSynchronization",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "BlamNetworkSession",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "BlamGameTelemetry",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "BlamAnimSync",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "EditorScriptingUtilities",
+			"Enabled": true,
+			"TargetAllowList": [
+				"Editor"
+			]
+		},
+		{
+			"Name": "EnhancedInput",
+			"Enabled": true
+		},
+		{
+			"Name": "GameFeatures",
+			"Enabled": true
+		},
+		{
+			"Name": "HaloActorPooling",
+			"Enabled": true
+		},
+		{
+			"Name": "HaloAssetManager",
+			"Enabled": true
+		},
+		{
+			"Name": "HaloAudio",
+			"Enabled": true
+		},
+		{
+			"Name": "HaloBlueprintUtilities",
+			"Enabled": true
+		},
+		{
+			"Name": "HaloColorBlind",
+			"Enabled": true
+		},
+		{
+			"Name": "HaloOnlineServices",
+			"Enabled": true
+		},
+		{
+			"Name": "HaloLandscapeDeformations",
+			"Enabled": true,
+			"TargetAllowList": [
+				"Game"
+			]
+		},
+		{
+			"Name": "HaloModularGameplayActors",
+			"Enabled": true
+		},
+		{
+			"Name": "Wwise",
+			"Enabled": true
+		},
+		{
+			"Name": "Niagara",
+			"Enabled": true
+		},
+		{
+			"Name": "OnlineSubsystem",
+			"Enabled": true
+		},
+		{
+			"Name": "OnlineSubsystemUtils",
+			"Enabled": true
+		},
+		{
+			"Name": "OnlineSubsystemNull",
+			"Enabled": true
+		},
+		{
+			"Name": "HaloGameTelemetry",
+			"Enabled": true
+		},
+		{
+			"Name": "JsonBlueprintUtilities",
+			"Enabled": true
+		},
+		{
+			"Name": "OnlineServicesOSSAdapter",
+			"Enabled": true
+		},
+		{
+			"Name": "TCQualitySubsystem",
+			"Enabled": true
+		},
+		{
+			"Name": "MediaCompositing",
+			"Enabled": true
+		},
+		{
+			"Name": "CommonUI",
+			"Enabled": true
+		},
+		{
+			"Name": "HaloUI",
+			"Enabled": true
+		},
+		{
+			"Name": "WinDualShock",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win64",
+				"WinGDK"
+			]
+		}
+	]
+}

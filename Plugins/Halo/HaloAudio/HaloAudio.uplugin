@@ -1,0 +1,51 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "HaloAudio",
+	"Description": "i343 Halo Engine Audio Port (Common, Wwise, GameCore, Acoustics)",
+	"Category": "Other",
+	"CreatedBy": "i343",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "HaloAudioUnreal",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+
+	"Plugins": [
+		{
+			"Name": "Wwise",
+			"Enabled": true
+		},
+		{
+			"Name": "EditorScriptingUtilities",
+			"Enabled": true
+		},
+		{
+			"Name": "HaloImGuiUtils",
+			"Enabled": true
+		},
+		{
+			"Name": "ImGui",
+			"Enabled": true
+		},
+		{
+			"Name": "OnlineSubsystem",
+			"Enabled": true
+		},
+		{
+			"Name": "SteamShared",
+			"Enabled": true
+		}
+	]
+}

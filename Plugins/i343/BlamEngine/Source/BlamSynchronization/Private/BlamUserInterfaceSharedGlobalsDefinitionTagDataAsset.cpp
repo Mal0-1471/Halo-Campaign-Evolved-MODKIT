@@ -1,0 +1,6 @@
+#include "BlamUserInterfaceSharedGlobalsDefinitionTagDataAsset.h"
+
+UBlamUserInterfaceSharedGlobalsDefinitionTagDataAsset::UBlamUserInterfaceSharedGlobalsDefinitionTagDataAsset() {
+}
+
+

@@ -1,0 +1,6 @@
+#include "BlamMultiplayerVariantSettingsInterfaceDefinitionTagDataAsset.h"
+
+UBlamMultiplayerVariantSettingsInterfaceDefinitionTagDataAsset::UBlamMultiplayerVariantSettingsInterfaceDefinitionTagDataAsset() {
+}
+
+
