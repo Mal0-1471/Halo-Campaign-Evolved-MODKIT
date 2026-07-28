@@ -35,3 +35,9 @@ Modkit development members
 
 Tool used for dumping game header files.
 - [UE4SS Fork by RSDTools](https://www.nexusmods.com/halocampaignevolved/mods/9)
+
+## Other Useful Tools
+
+- [FModel](https://github.com/4sval/FModel): Game Archive Explorer and Exporter
+- [UAssetGUI](https://github.com/atenfyr/UAssetGUI): Cooked asset editor and Archive Explorer
+- [Retoc](https://github.com/trumank/retoc): Commandline based packaging tool that allows manually edited cooked files to be packaged
