@@ -2,11 +2,13 @@
 
 C++ Project containing various game modules, allowing for modders to easily create Blueprint mods or otherwise replace assets.
 
+[![HaloSplash](https://raw.githubusercontent.com/Halo-Campaign-Evolved-MODKIT/_gitasset/readme/READMESPLASH.jpg)](https://github.com/Mal0-1471/Halo-Campaign-Evolved-MODKIT)
+
 ## Major features
 
 - Unreal Engine Project setup with numerous modules from the game exposed to be used in Blueprint scripting or asset replacement.
 - Wwise Integration
-- Template mods to work off of
+- Template mods to build off of
 
 ## Basic Installation
 
@@ -15,6 +17,16 @@ C++ Project containing various game modules, allowing for modders to easily crea
 - Clone this repository to a safe directory
 - Download the Wwise Launcher and integrate the Wwise Version 2023.1.17.8841 to the project, as well as directing it to the project's Wwise project.
 - Download the PlayFab plugin from Fab and integrate it into your engine installation
+- In the project folder, right click the HaloCERModkit.uproject file and choose "Generate Visual Studio Project Files"
+- When it's done, open the HaloCERModkit.sln file, and in the solution explorer, right click "HaloCERModkit" and choose "Build"
+- Once complete, you can now open the project via the HaloCERModkit.uproject file
+
+## Packaging Mods
+
+- Ensure your mod is referenced by a PrimaryAssetLabel Data Asset. See Template mod for an example
+- in the main viewport of Unreal Engine, click "Platforms" and then choose Windows->Package Project
+- Once complete, you will have a folder called "Windows" in the directory you chose, inside of here, look for "HaloCERModkit/Content/Paks" your modded PAK files will be in here, identified by the number you specified for your PrimaryAssetLabel.
+- Simply rename these to your desired mod name and drag them to the appropriate folder, for UE4SS mods they must go in "LogicMods" and be renamed to the same as your folder.
 
 ## Credits
 

@@ -27,6 +27,10 @@
 	],
 	"Plugins": [
 		{
+			"Name": "CommonUI",
+			"Enabled": true
+		},
+		{
 			"Name": "BlamEngine",
 			"Enabled": true
 		},
