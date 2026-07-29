@@ -159,6 +159,8 @@ def run_import(node_variables=None):
     import_task.destination_name = base_name
     import_task.automated = True
     import_task.save = True
+    import_task.replace_existing = True 
+    import_task.save = True
 
     asset_tools.import_asset_tasks([import_task])
 
